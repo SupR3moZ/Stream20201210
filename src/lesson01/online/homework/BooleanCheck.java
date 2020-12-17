@@ -10,18 +10,8 @@ public class BooleanCheck {
         } else {
             System.out.println("False");
         }
-
-
-
-//        public static int result(int valueA, int valueB){
-//        return valueA + valueB;
-//        }
-
     }
 }
-//            public static boolean trueFalse (int checkValue) {
-//                if (20 >= checkValue() && checkValue() => 10);
-//            }
 
 /*
 2) Написать метод, принимающий на вход два целых числа,
