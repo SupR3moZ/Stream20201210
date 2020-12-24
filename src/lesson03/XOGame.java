@@ -90,6 +90,30 @@ public class XOGame {
         return false;
     }
 
+//    public static boolean blockWin(char inboxChar) {
+//        if (map[0][0] == HUMAN_DOT && map[0][1] == HUMAN_DOT) return true;
+//                int[][] whereToBlockY = 0;
+//                int whereToBlockX = 2;
+//        if (map[1][0] == HUMAN_DOT && map[1][1] == HUMAN_DOT) return true;
+//                int whereToBlockY = 1;
+//                int whereToBlockX = 2;
+//        if (map[2][0] == HUMAN_DOT && map[2][1] == HUMAN_DOT) return true;
+//                whereToBlock = ++map[2][2];
+//
+//        if (map[0][0] == HUMAN_DOT && map[1][0] == HUMAN_DOT) return true;
+//                whereToBlock = ++map[2][0];
+//        if (map[0][1] == HUMAN_DOT && map[1][1] == HUMAN_DOT) return true;
+//                whereToBlock = ++map[2][1];
+//        if (map[0][2] == HUMAN_DOT && map[1][2] == HUMAN_DOT) return true;
+//                whe1reToBlock = ++map[2][2];
+//
+//        if (map[0][0] == HUMAN_DOT && map[1][1] == HUMAN_DOT) return true;
+//                whereToBlock = ++map[2][2];
+//        if (map[0][2] == HUMAN_DOT && map[1][1] == HUMAN_DOT) return true;
+//                whereToBlock = ++map[2][0];
+//        return false;
+//    }
+
     public static boolean isMapFull() {
         for (int y = 0; y < mapSizeY; y++) {
             for (int x = 0; x < mapSizeX; x++) {
